@@ -1,0 +1,25 @@
+{
+  "name": "foundation-hashgrid",
+  "version": "0.0.1",
+  "authors": [
+    "jason@jasonlusk.com"
+  ],
+  "description": "a tool that inserts a layout grid in web pages using Zurbs Foundation 5 framework, allows you to hold it in place, and toggle between displaying it in the foreground or background.",
+  "main": "foundation.hashgrid.js",
+  "keywords": [
+    "foundation",
+    "hashgrid",
+    "overlay",
+    "grid",
+    "zurb"
+  ],
+  "license": "MIT",
+  "homepage": "jasonlusk.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
