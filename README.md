@@ -18,3 +18,6 @@ a tool that inserts a layout grid in web pages using Zurbs Foundation 5 framewor
        classPrefix: 'myclass',  // prefix for the grid classes
        cookiePrefix: 'mygrid'   // prefix for the cookie name
     });
+
+####Install with bower
+    bower install foundation-hashgrid
