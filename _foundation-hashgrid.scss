@@ -71,8 +71,8 @@ $columns-width-output: px-calc($columns-width);
     }
     &:after {
         position: fixed;
-        bottom: 0;
-        right: 0;
+        bottom: 1em;
+        right: 1em;
         content: "Baseline Height: #{$grid-baseline-height-output}  \A         Columns: #{$grid-columns}  \A      Grid Width: #{$grid-width-output}  \A    Column Width: #{$columns-width-output}  \A    Gutter Width: #{$grid-gutter-width-output}  \A    Margin Width: #{$grid-margin-output}";
         white-space: pre;
         display: block;
