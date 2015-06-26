@@ -1,0 +1,60 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Hashgrid | example</title>
+    <meta name="description" content="Demo for Foundation hashgrid.">
+    <meta name="author" content="Jason Lusk">
+    <meta name="copyright" content="Jason Lusk Copyright (c) 2014">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css" rel="stylesheet" />
+    <link href="foundation-hashgrid.css" rel="stylesheet" />
+    <style>
+    .gs-example .row { border: 1px solid #c6c6c6; }
+    .gs-example .row .row { margin: 0; }
+    .gs-example .border-none { border-right: none !important; }
+    .gs-example .columns { padding-left: inherit; padding-right: inherit;
+      border: 3px solid #fff; background: #eee; }
+    .gs-example .columns:nth-child(2) { background: #e1e1e1; }
+    .gs-example p { padding: 10px; margin-bottom: 0; text-align: center; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/vendor/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/vendor/modernizr.js"></script>
+    <script src="foundation.hashgrid.js"></script>
+  </head>
+  <body class="antialiased hide-extras">
+    <section class="gs-example container">
+      <div class="row">
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+        <div class="medium-1 columns">.medium-1 .columns</div>
+      </div>
+      <div class="row">
+        <div class="medium-8 columns">.medium-8 .columns</div>
+        <div class="medium-4 columns">.medium-4 .columns</div>
+      </div>
+      <div class="row">
+        <div class="medium-4 columns">.medium-4 .columns</div>
+        <div class="medium-4 columns">.medium-4 .columns</div>
+        <div class="medium-4 columns">.medium-4 .columns</div>
+      </div>
+      <div class="row">
+        <div class="medium-6 columns">.medium-6 .columns</div>
+        <div class="medium-6 columns">.small-6 .columns</div>
+      </div>
+    </section>
+  </body>
+  <script>
+  $(document).hashgrid();
+  </script>
+</html>
